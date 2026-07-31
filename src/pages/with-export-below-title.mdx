@@ -1,0 +1,15 @@
+import PKG from '../../package.json';
+
+# Privacy Policy
+
+…
+
+export function Author() {
+  return (
+    <a href={`mailto:${PKG.author.email}`} target="_blank" rel="noopener noreferrer">
+      {PKG.author.name}
+    </a>
+  );
+}
+
+For any questions, please email <Author/>.
